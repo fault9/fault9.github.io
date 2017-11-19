@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {% if page.author %}<h1 class="post-title"> {{ page.author | escape }} </h1> {% else %} <h1 class="post-title">  {{ page.title | escape}}</h1> {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
