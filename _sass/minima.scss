@@ -7,6 +7,7 @@ $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
+$new-font-family: American Typewriter, serif !default;
 
 $spacing-unit:     30px !default;
 
@@ -21,7 +22,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 $header-color: #FE9797 !default;
-$link-color: #5B9999 !default;
+$link-color: #58a3a3 !default;
 
 $post-width: 600px;
 $post-border: 1px solid #828282;
